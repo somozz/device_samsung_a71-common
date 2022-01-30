@@ -206,6 +206,10 @@ ro.security.keystore.keytype=sakv2,gak
 # Light
 ro.hardware.lights=qcom
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Media
 debug.media.codec2=2
 audio.offload.video=true
