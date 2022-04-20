@@ -238,17 +238,6 @@
       "Priority" : "low"
     },
     {
-      "Name": "TABoost",
-      "ID" : "0x41001003",
-      "Handler" : "sysfs",
-      "FreqTablePath" : "",
-      "BoostPath" : "/dev/stune/top-app/schedtune.boost",
-      "DefaultValue": "0",
-      "MaxValue" : "100",
-      "MinValue" : "0",
-      "Priority" : "high"
-    },
-    {
       "Name": "StorageClkEnable",
       "ID" : "0x60002000",
       "Handler" : "sysfs",
