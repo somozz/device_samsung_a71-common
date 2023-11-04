@@ -104,7 +104,6 @@ camera.disable_zsl_mode=1
 ro.charger.enable_suspend=true
 
 # Chipset
-ro.soc.manufacturer=QTI
 ro.soc.model=SM7150
 
 # Crypto
