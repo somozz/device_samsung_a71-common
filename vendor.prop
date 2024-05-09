@@ -231,6 +231,9 @@ tas.smartamp.disable=false
 # QC Value Addons
 ro.vendor.qti.va_aosp.support=1
 
+# Power HAL
+vendor.powerhal.disp.idle_support=false
+
 # RIL
 keyguard.no_require_sim=true
 persist.sys.radio.force_lte_ca=true
