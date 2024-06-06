@@ -230,6 +230,11 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal \
 
+# Kernel
+LOCAL_KERNEL := device/samsung/$(TARGET_OTA_ASSERT_DEVICE)-kernel/Image.gz
+PRODUCT_COPY_FILES += \
+	$(LOCAL_KERNEL):kernel
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/usr/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
