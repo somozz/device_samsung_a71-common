@@ -78,5 +78,9 @@ BOARD_USES_DPM := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+BOARD_HAS_QCA_FM_SOC := "cherokee"
+
 # Get non-open-source specific aspects
 include vendor/samsung/a71-common/BoardConfigVendor.mk
