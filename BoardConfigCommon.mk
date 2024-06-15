@@ -117,7 +117,8 @@ DEVICE_MATRIX_FILE := \
     $(COMMON_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_sm7150
+TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_sm7150
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sm7150
 
 # Get non-open-source specific aspects
 include vendor/samsung/a71-common/BoardConfigVendor.mk
