@@ -53,5 +53,11 @@ BOARD_USES_COMMON_BLUETOOTH_HAL := true
 # Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := sm6150
+TARGET_NO_BOOTLOADER := true
+TARGET_NO_RADIOIMAGE := true
+TARGET_NO_RPC := true
+
 # Get non-open-source specific aspects
 include vendor/samsung/a71-common/BoardConfigVendor.mk
