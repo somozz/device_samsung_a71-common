@@ -828,9 +828,6 @@
          The default is false. -->
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
 
-    <!-- If device has a sensor that can wake-up the lock screen -->
-    <bool name="config_dozeWakeLockScreenSensorAvailable">true</bool>
-
     <!-- If device supports pickup/lift gesture -->
     <bool name="config_dozePulsePickup">true</bool>
 
@@ -848,18 +845,11 @@
          states. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
-    <!-- If true, the doze component is not started until after the screen has been
-         turned off and the screen off animation has been performed. -->
-    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
-
     <!-- Disable AOD by default -->
     <bool name="config_dozeAlwaysOnEnabled">true</bool>
 
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
-
-    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">false</bool>
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
