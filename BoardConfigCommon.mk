@@ -12,9 +12,6 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 COMMON_PATH := device/samsung/a71-common
 
-# 64 Bit
-TARGET_USES_64_BIT_BINDER := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
