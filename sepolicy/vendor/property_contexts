@@ -6,7 +6,7 @@ persist.vendor.bt.                               u:object_r:vendor_bluetooth_pro
 vendor.bluetooth_fw_ver                          u:object_r:vendor_bluetooth_prop:s0
 
 # Fastcharge
-persist.vendor.sec.fastchg_enabled               u:object_r:sec_fastcharge_prop:s0
+persist.vendor.sec.fastchg_enabled               u:object_r:vendor_fastcharge_prop:s0
 
 # Fingerprint
 vendor.finger.down                               u:object_r:vendor_fingerprint_prop:s0
