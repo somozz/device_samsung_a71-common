@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDAP \
 
+# SamsungDoze
+PRODUCT_PACKAGES += \
+    SamsungDoze \
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
