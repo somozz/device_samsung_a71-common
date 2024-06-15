@@ -206,5 +206,9 @@ TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := false
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
+# RIL
+BOARD_PROVIDES_LIBRIL := true
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Get non-open-source specific aspects
 include vendor/samsung/a71-common/BoardConfigVendor.mk
