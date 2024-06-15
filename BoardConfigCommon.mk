@@ -51,8 +51,7 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_USES_COMMON_BLUETOOTH_HAL := true
 
 # Bootanimation
-TARGET_BOOTANIMATION_PRELOAD := true
-TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+TARGET_BOOTANIMATION_HALF_RES := true
 
 # Get non-open-source specific aspects
 include vendor/samsung/a71-common/BoardConfigVendor.mk
