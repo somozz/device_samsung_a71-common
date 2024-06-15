@@ -177,6 +177,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     AdvancedDisplay \
 
+# SamsungDAP
+PRODUCT_PACKAGES += \
+    SamsungDAP \
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
