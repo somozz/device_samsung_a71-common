@@ -25,6 +25,9 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# Fastcharge
+/sys/class/sec/switch/afc_disable 0660 system system
+
 # Firmware directory Path
 # Below macro will be read by uevent and path will
 # be added to search path for firmware loading
