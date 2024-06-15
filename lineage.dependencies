@@ -1,2 +1,6 @@
 [
+  {
+    "repository": "android_kernel_samsung_a71",
+    "target_path": "kernel/samsung/a71"
+  }
 ]
