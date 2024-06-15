@@ -15,6 +15,9 @@ COMMON_PATH := device/samsung/a71-common
 # 64 Bit
 TARGET_USES_64_BIT_BINDER := true
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 

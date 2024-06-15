@@ -30,6 +30,13 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 
+# ANT+
+PRODUCT_PACKAGES += \
+    AntHalService-Soong \
+    com.dsi.ant.antradio_library \
+    com.dsi.ant@1.0.vendor \
+    com.qualcomm.qti.ant@1.0 \
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
