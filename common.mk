@@ -552,6 +552,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
+    android.hardware.usb-service.samsung \
     android.hardware.usb@1.1.vendor \
 
 # Vendor Service Manager
