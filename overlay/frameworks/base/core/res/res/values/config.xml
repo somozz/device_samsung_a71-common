@@ -831,6 +831,10 @@
     <!-- If device supports pickup/lift gesture -->
     <bool name="config_dozePulsePickup">true</bool>
 
+    <!-- Minimum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness below this level. -->
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">1.0</item>
+
     <!-- Maximum color temperature, in Kelvin, supported by Night display. -->
     <integer name="config_nightDisplayColorTemperatureMax">8192</integer>
 
