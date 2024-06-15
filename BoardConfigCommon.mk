@@ -6,6 +6,7 @@
 
 BOARD_VENDOR := samsung
 
+BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 COMMON_PATH := device/samsung/a71-common
