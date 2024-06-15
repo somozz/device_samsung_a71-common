@@ -598,6 +598,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     librilutils \
     libxml2 \
+    secril_config_svc \
 
 # Seccomp Policy
 PRODUCT_COPY_FILES += \
