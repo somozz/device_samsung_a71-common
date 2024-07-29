@@ -1,2 +1,5 @@
+# Audio
+vendor.audio.feature.compr_voip.enable=false
+
 # QC Value Addons
 ro.vendor.qti.va_odm.support=1
