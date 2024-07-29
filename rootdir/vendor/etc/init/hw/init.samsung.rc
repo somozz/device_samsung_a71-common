@@ -69,6 +69,8 @@ on post-fs
 on post-fs-data
     #argos
     chown system system /dev/network_throughput
+
+    mkdir /data/vendor/gatekeeper 0770 system system
 	
 # Camera Boost
     chown cameraserver cameraserver /sys/kernel/mm/vmscan/mem_boost_mode
@@ -353,3 +355,9 @@ service factory_ssc /vendor/bin/factory.ssc
 on property:sys.boot_completed=1
     start argos-daemon
 
+service vendor.gatekeeper-1-0 /vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+    interface android.hardware.gatekeeper@1.0::IGatekeeper default
+    override
+    class hal
+    user system
+    group system 5678
