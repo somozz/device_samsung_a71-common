@@ -7,13 +7,6 @@
 // Ramdisk's Hw
 
 prebuilt_etc {
-    name: "init.a71.rc",
-    src: "vendor/etc/init/hw/init.a71.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.qcom.factory.rc",
     src: "vendor/etc/init/hw/init.qcom.factory.rc",
     sub_dir: "init/hw",
