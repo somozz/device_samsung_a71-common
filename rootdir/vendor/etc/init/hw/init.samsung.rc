@@ -354,10 +354,3 @@ service factory_ssc /vendor/bin/factory.ssc
 
 on property:sys.boot_completed=1
     start argos-daemon
-
-service vendor.gatekeeper-1-0 /vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-    interface android.hardware.gatekeeper@1.0::IGatekeeper default
-    override
-    class hal
-    user system
-    group system 5678
