@@ -142,10 +142,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     AdvancedDisplay \
 
-# SamsungDAP
-PRODUCT_PACKAGES += \
-    SamsungDAP \
-
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze \
