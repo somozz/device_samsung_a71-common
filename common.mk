@@ -482,10 +482,6 @@ AB_OTA_UPDATER := false
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
 
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl \
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
