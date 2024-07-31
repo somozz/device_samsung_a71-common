@@ -477,7 +477,9 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.0.vendor \
+    libnetutils.vendor:64 \
     librilutils \
+    libsqlite.vendor:64 \
     secril_config_svc \
 
 # Seccomp Policy
