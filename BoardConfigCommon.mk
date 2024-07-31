@@ -65,11 +65,10 @@ TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
 
 # Camera
-SOONG_CONFIG_NAMESPACES += samsung_sm6150CameraVars
-SOONG_CONFIG_samsung_sm6150CameraVars += \
-    samsung_sm6150_model
-
-SOONG_CONFIG_samsung_sm6150CameraVars_samsung_sm6150_model := $(TARGET_DEVICE)
+SOONG_CONFIG_NAMESPACES += samsungCameraVars
+SOONG_CONFIG_samsungCameraVars += extra_ids
+# ID=54 is macro
+SOONG_CONFIG_samsungCameraVars_extra_ids := 54
 
 USE_CAMERA_STUB := false
 USE_DEVICE_SPECIFIC_CAMERA := true
