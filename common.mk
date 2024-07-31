@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service_32.samsung \
     android.hardware.camera.provider@2.7.vendor \
     libcamera2ndk_vendor \
+    libcamera_metadata.vendor \
     libdng_sdk \
     libdng_sdk.vendor \
     libgui_vendor:32 \
@@ -193,6 +194,7 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libion \
+    libion.vendor \
     libvulkan \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0.vendor \
@@ -213,8 +215,10 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0.vendor \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
+    android.hidl.memory@1.0.vendor \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -406,9 +410,14 @@ PRODUCT_COPY_FILES += \
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson \
+    libjsoncpp.vendor:64 \
+    libpng.vendor:32 \
+    libprocessgroup.vendor \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
+    libsysutils.vendor:64 \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor \
 
