@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
     libsuspend \
     vendor.lineage.fastcharge@1.0-service.samsung \
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore \
+
 # Data
 $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_product.mk)
 
