@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
-    android.hardware.soundtrigger@2.2-impl \
     android.media.audio.common.types-V2-cpp \
     audio.primary.default \
     audio.primary.sm6150:32 \
