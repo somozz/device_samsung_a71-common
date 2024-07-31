@@ -126,7 +126,7 @@ DEVICE_MANIFEST_FILE := \
     $(COMMON_PATH)/manifest.xml
 
 DEVICE_MATRIX_FILE := \
-    $(COMMON_PATH)/compatibility_matrix.xml
+    hardware/qcom-caf/common/compatibility_matrix.xml
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
