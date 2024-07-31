@@ -158,6 +158,9 @@ TARGET_KERNEL_VERSION := 4.14
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
 
+# Light
+$(call soong_config_set,samsungVars,target_specific_header_path,$(COMMON_PATH)/include)
+
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/batt_slate_mode
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
