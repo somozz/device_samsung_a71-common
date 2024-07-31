@@ -506,6 +506,7 @@ PRODUCT_PACKAGES += \
     librilutils \
     libsqlite.vendor:64 \
     secril_config_svc \
+    sehradiomanager \
 
 # Seccomp Policy
 PRODUCT_COPY_FILES += \
