@@ -14,7 +14,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 COMMON_PATH := device/samsung/a71-common
 
-PRODUCT_BUILD_SUPER_PARTITION := true
+PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_SHIPPING_API_LEVEL := 29
