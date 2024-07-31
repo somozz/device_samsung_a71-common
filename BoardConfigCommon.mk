@@ -69,8 +69,9 @@ $(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
 
 SOONG_CONFIG_NAMESPACES += samsungCameraVars
 SOONG_CONFIG_samsungCameraVars += extra_ids
+# ID=52 is depth
 # ID=54 is macro
-SOONG_CONFIG_samsungCameraVars_extra_ids := 54
+SOONG_CONFIG_samsungCameraVars_extra_ids := 54,52
 
 USE_CAMERA_STUB := false
 USE_DEVICE_SPECIFIC_CAMERA := true
