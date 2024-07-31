@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     libsuspend \
     vendor.lineage.fastcharge@1.0-service.samsung \
 
+# CNE
+PRODUCT_PACKAGES += \
+    CneApp.libvndfwk_detect_jni.qti_vendor_symlink \
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore \
