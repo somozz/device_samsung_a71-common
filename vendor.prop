@@ -173,7 +173,6 @@ ro.fastbootd.available=true
 ro.vendor.fingerprint.force_calibrate=true
 ro.vendor.fingerprint.max_enrollments=4
 ro.vendor.fingerprint.request_touch_event=true
-ro.vendor.fingerprint.supports_gestures=true
 
 # FM
 vendor.hw.fm.init=0
