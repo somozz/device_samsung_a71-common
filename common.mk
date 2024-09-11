@@ -546,6 +546,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext \
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.pixel \
+    thermal_symlinks
+
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.sm6150 \
