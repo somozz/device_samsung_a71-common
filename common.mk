@@ -125,7 +125,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images_vendor \
     libsuspend \
-    vendor.lineage.fastcharge@1.0-service.samsung \
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -141,14 +140,6 @@ $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_
 # Display
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
-
-# SamsungAdvancedDisplay
-PRODUCT_PACKAGES += \
-    AdvancedDisplay \
-
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze \
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -252,10 +243,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.samsung \
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm6150 \
 
 # Media
 PRODUCT_PACKAGES += \
@@ -556,10 +543,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.pixel \
     thermal_symlinks
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.sm6150 \
 
 # USB
 PRODUCT_PACKAGES += \
