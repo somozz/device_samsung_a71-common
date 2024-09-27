@@ -454,6 +454,18 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" override="true">
+        <name>vendor.samsung.hardware.keymint</name>
+        <version>1</version>
+        <interface>
+            <name>ISehKeyMintExtension</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ISehKeyMintFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="aidl">
         <name>vendor.samsung.hardware.media.converter</name>
         <fqname>ISehColorConverterStore/default</fqname>
