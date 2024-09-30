@@ -374,6 +374,8 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors-service.samsung-multihal \
+    libsensorndkbridge \
+    libshim_sensorndkbridge \
     sensors.samsung \
 
 PRODUCT_COPY_FILES += \
